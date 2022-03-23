@@ -1,0 +1,36 @@
+name: 'GitHub Actions  Bot'
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '10 2 * * *'
+
+jobs:
+  leetcode-weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v2
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - name: 'Install requirements'
+        run:
+          pip install requests
+      - name: 'Working'
+        env:
+          SCKEY1: ${{ secrets.SCKEY1 }}
+          SCKEY2: ${{ secrets.SCKEY2 }}
+          SCKEY3: ${{ secrets.SCKEY3 }}
+          SCKEY4: ${{ secrets.SCKEY4 }}
+          SCKEY5: ${{ secrets.SCKEY5 }}
+          SCKEY6: ${{ secrets.SCKEY6 }}
+          SCKEY7: ${{ secrets.SCKEY7 }}
+          SCKEY8: ${{ secrets.SCKEY8 }}
+          SCKEY9: ${{ secrets.SCKEY9 }}
+          SCKEY10: ${{ secrets.SCKEY10 }}
+        run: python main.py
+
