@@ -2,7 +2,7 @@
 # [SUT打卡自动化——基于Python requests](https://github.com/usbcsusb/SUT-AutoReport-python)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/usbcsusb/SUT-AutoReport-python)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/usbcsusb/SUT-AutoReport)  
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/usbcsusb/SUT-AutoReport-python)  
 
 友情链接 https://github.com/BioniCosmos/auto-report
 
