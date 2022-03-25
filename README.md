@@ -9,7 +9,15 @@
 ## 食用方法
 
 本分支为非github action 版本 ，直接使用 python main.py 即可运行
+Github Action版本 在另一个分支
 
+定时运行 ：
+先在服务器内安装python依赖
+pip install -r requirements.txt
+
+之后在宝塔面板中选择一个文件夹用来存放main.py 
+编写 运行时间和执行脚本 
+![image](https://user-images.githubusercontent.com/57305002/160044243-1a02b49a-7e13-4b0b-8157-b1ac85c19079.png)
 
 在 main.py 中修改相关参数
 
