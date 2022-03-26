@@ -130,7 +130,6 @@ def request_dk():
     url_dk_punch = "https://yqtb.sut.edu.cn/punchForm"  # 提交url
 
     # 确认无误再解除下方代码注释
-    # payload_dreal = "{\n    \"punch_form\": \"{\\\"mqszd\\\":\\\"沈阳市\\\",\\\"sfybh\\\":\\\"否\\\",\\\"mqstzk\\\":\\\"良好\\\",\\\"jcryqk\\\":\\\"未接触下述五类人员\\\",\\\"glqk\\\":\\\"自行做好防护\\\",\\\"jrcltw\\\":\\\"36.6\\\",\\\"sjhm\\\":\\\"18742455589\\\",\\\"jrlxfs\\\":\\\"15002433437\\\",\\\"xcsj\\\":\\\"\\\",\\\"gldd\\\":\\\"\\\",\\\"zddw\\\":\\\"中国,辽宁省,沈阳市<@>东关屯镇嘎巴屯村\\\"}\",\n    \"date\": \"2022-03-24\"\n}"
     # payload_punch = "{\n    \"punch_form\": \"{\\\"mqszd\\\":\\\"" + mqszd + "\\\",\\\"sfybh\\\":\\\"" + sfybh + "\\\",\\\"mqstzk\\\":\\\"良好\\\",\\\"jcryqk\\\":\\\"未接触下述五类人员\\\",\\\"glqk\\\":\\\"自行做好防护\\\",\\\"jrcltw\\\":\\\"" + jrcltw + "\\\",\\\"sjhm\\\":\\\"" + sjhm + "\\\",\\\"jrlxfs\\\":\\\"" + jrlxfs + "\\\",\\\"xcsj\\\":\\\"\\\",\\\"gldd\\\":\\\"\\\",\\\"zddw\\\":\\\"" + zddw1 + "<@>" + zddw2 + "\\\"}\",\n    \"date\": \"" + date_time + "\"\n}"
     payload_punch = "{\n    \"punch_form\": \"{\\\"mqszd\\\":\\\"" + mqszd + "\\\",\\\"sfybh\\\":\\\"" + sfybh + "\\\",\\\"mqstzk\\\":\\\"良好\\\",\\\"jcryqk\\\":\\\"未接触下述五类人员\\\",\\\"glqk\\\":\\\"自行做好防护\\\",\\\"jrcltw\\\":\\\"" + jrcltw + "\\\",\\\"sjhm\\\":\\\"" + sjhm + "\\\",\\\"jrlxfs\\\":\\\"" + jrlxfs + "\\\",\\\"xcsj\\\":\\\"\\\",\\\"gldd\\\":\\\"\\\",\\\"zddw\\\":\\\"" + zddw1 + "<@>" + zddw2 + "\\\"}\",\n    \"date\": \"" + date_time + "\"\n}"
     # print(payload_dreal)
@@ -140,8 +139,7 @@ def request_dk():
         'User-Agent': "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Mobile Safari/537.36",
         'Cookie': cookie_value,
         'Content-Type': "application/json",
-        'cache-control': "no-cache",
-        'Postman-Token': "8b5f7737-df4d-458f-bfed-c91bf3afe654"
+        'cache-control': "no-cache"
     }
     # print(type(payload))
 
