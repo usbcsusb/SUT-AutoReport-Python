@@ -42,13 +42,16 @@ pip install -r requirements.txt
     <img src="images/img 2 .png" width="100%">
     将复制的SendKey粘贴在 ******************位置 
      <img src="images/img 3 .png" width="100%">
-
+## TODO
+1.添加根据上次打卡内容，获取打卡信息功能，这样只需要输入账号密码即可
+2.基于Flask开发一个可以添加账号的 web界面 ，提升交互性。
 
 ## 许可证声明：
 本项目采用MIT许可证
 * 你可以使用，复制和修改软件
 * 你可以免费使用软件或出售
 * 唯一的限制是，它是必须附有MIT授权协议
+
 
 # 郑重声明：
 **本项目初衷为学习python基础！**
